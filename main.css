@@ -9,7 +9,7 @@ body{
 }
 
 .parent{
-    width: 530px;
+    width: 100%;
     margin: 40px auto;
     padding: 20px;
     background-color: #eee;
@@ -79,4 +79,14 @@ input:focus{
     color: white;
     cursor: pointer;
     margin: 180px
+}
+
+@media(max-width:480px){
+    .delete-all {
+        margin: 0;
+    }
+
+    .buttons span {
+        margin: 1px;
+    }
 }
